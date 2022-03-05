@@ -39,4 +39,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation androidDepend.appcompat
+    api project(path: '::LibUI')
+    api project(path: '::LibZxing')
+    api project(path: '::ImagePreview')
 }
