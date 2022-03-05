@@ -1,3 +1,5 @@
+include ':ImagePreview'
+include ':LibZxing'
 include ':LibUI'
 include ':app'
 rootProject.name = "UIAdaptationComponents"
