@@ -1,0 +1,3 @@
+include ':LibUI'
+include ':app'
+rootProject.name = "UIAdaptationComponents"
